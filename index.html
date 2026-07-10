@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASH Edits | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="topbar glass">
+      <a class="brand" href="index.html"><span>ASH</span>Edits</a>
+      <nav class="nav-links" id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-btn" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero glass">
+        <div>
+          <p class="eyebrow">Client Portfolio</p>
+          <h1>Short-form edits, motion design, and polished visuals.</h1>
+          <p>ASH Edits shares a clean gallery of small clips and client-ready work, while also showcasing professional editing skills.</p>
+          <div class="actions">
+            <a class="btn primary" href="gallery.html">Open Gallery</a>
+            <a class="btn" href="skills.html">View Skills</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="preview-card">
+            <video class="hero-video" autoplay muted loop playsinline>
+              <source src="content/intro.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section class="cards-grid">
+        <article class="card glass">
+          <h3>Gallery</h3>
+          <p>Short clips and polished edits displayed in a simple, client-friendly gallery.</p>
+        </article>
+        <article class="card glass">
+          <h3>Skills</h3>
+          <p>Creative editing and motion work built with Premiere Pro, After Effects, and more.</p>
+        </article>
+        <article class="card glass">
+          <h3>Professional Delivery</h3>
+          <p>Clean pacing, strong storytelling, and a premium look for every project.</p>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
